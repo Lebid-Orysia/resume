@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(217, 239, 251);
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: ;
+    margin: 0 auto;
+    gap: 180px;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 740px;
+    align-items: left;
+    margin-left: 40px;
+
+}
+
+.main-info h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(23, 23, 67);
+}
+
+.main-info p {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/* Ліва колонка */
+.left-column {
+    width: 30%;
+    text-align: left;
+}
+
+.left-column h3 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(23, 23, 67);
+    font-family: "Montserrat", sans-serif;
+}
+
+.left-column li {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.left-column ul {
+    padding-left: 0px;
+}
+
+.left-column li {
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+/* Права колонка */
+.right-column {
+    width: 70%;
+    text-align: left;
+}
+
+.right-column section {
+    margin-bottom: 50px;
+}
+
+.right-column h3,
+.right-column h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(23, 23, 67);
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0;
+}
+
+.right-column p,
+.right-column li {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.right-column a {
+    color: rgb(34, 98, 209);
+    text-decoration: none;
+}
+
+.right-column a:hover {
+    text-decoration: underline;
+}
