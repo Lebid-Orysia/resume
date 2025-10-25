@@ -4,7 +4,7 @@ body {
 
 .resume-container {
     display: flex;
-    flex-direction: ;
+    flex-direction: row;
     margin: 0 auto;
     gap: 180px;
     align-items: flex-start;
