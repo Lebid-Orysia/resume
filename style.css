@@ -93,11 +93,16 @@ body {
     font-family: "Nunito Sans", sans-serif;
 }
 
-.right-column a {
+.right-column a,
+.main-info a {
     color: rgb(34, 98, 209);
     text-decoration: none;
 }
 
 .right-column a:hover {
+    text-decoration: underline;
+}
+
+.main-info a:hover {
     text-decoration: underline;
 }
